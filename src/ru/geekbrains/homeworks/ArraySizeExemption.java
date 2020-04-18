@@ -2,7 +2,7 @@ package ru.geekbrains.homeworks;
 
 public class ArraySizeExemption extends Exception {
 
-    public ArraySizeExemption(String message) {
+    public ArraySizeExemption() {
         super("Размер массива не верен");
     }
 }
